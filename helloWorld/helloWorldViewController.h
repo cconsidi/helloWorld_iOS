@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
 
 @interface helloWorldViewController : UIViewController <UITextFieldDelegate>
 @property (copy, nonatomic) NSString *userName;
 @end
+//@interface messageComposeViewController: MFMessageComposeViewController < MFMessageComposeViewControllerDelegate, UINavigationControllerDelegate>
+//@end
